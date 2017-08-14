@@ -2,7 +2,7 @@
 // Created by kelfor on 5/3/17.
 //
 //#define SHOWIMG
-#include "include/InfraredProccesor.h"
+#include "InfraredProccesor.h"
 #define SHOWIMG
 
 InfraredImageProcessor::InfraredImageProcessor() {

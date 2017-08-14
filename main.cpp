@@ -1,4 +1,4 @@
-#include"include/InfraredProccesor.h"
+#include"InfraredProccesor.h"
 #define SHOWIMG
 
 
@@ -37,7 +37,7 @@ int main(int argc, char ** argv)
 	onAreaLowerChange(T_AREA_LOW,0);
 	onAreaUpperChange(T_AREA_UP, 0);
 	InfraredImageProcessor infraredImageProc;
-	vcap.open("Video/IR01.avi");
+	vcap.open("../Video/IR01.avi");
 	Mat frame;
 	Rect mROI;
 	namedWindow("ROI", 1);
